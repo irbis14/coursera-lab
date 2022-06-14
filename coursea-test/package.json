@@ -1,0 +1,16 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "This is the test directory to learn Git and Node",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/irbis14/coursera-lab)"
+  },
+  "author": "Nina Motorna",
+  "license": "ISC"
+}
