@@ -11,7 +11,7 @@ class DishDetail extends React.Component {
             return (
                 <div className="container">
                     <h4>Comments</h4>
-                    <ListGroup className="unstyled">
+                    <ListGroup className="list-unstyled">
                         {dish.comments.map(item => {
                             const dateString = new Date(item.date).toLocaleDateString('en', { year: 'numeric', month: 'long', day: 'numeric' });
                             return (
